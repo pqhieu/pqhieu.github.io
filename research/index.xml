@@ -1,1 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research on Pham Quang Hieu</title><link>https://pqhieu.com/research/</link><description>Recent content in Research on Pham Quang Hieu</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 29 Jun 2020 19:23:54 +0800</lastBuildDate><atom:link href="https://pqhieu.com/research/index.xml" rel="self" type="application/rss+xml"/><item><title>JSIS3D: Joint Semantic-Instance Segmentation of 3D Point Clouds with Multi-Task Pointwise Networks and Multi-Value Conditional Random Fields</title><link>https://pqhieu.com/research/cvpr19/</link><pubDate>Mon, 29 Jun 2020 19:23:54 +0800</pubDate><guid>https://pqhieu.com/research/cvpr19/</guid><description>JSIS3D: Joint Semantic-Instance Segmentation of 3D Point Clouds with Multi-Task Pointwise Networks and Multi-Value Conditional Random Fields Quang-Hieu Pham1 Binh-Son Hua2 Duc Thanh Nguyen3 Gemma Roig1 Sai-Kit Yeung4 1Singapore University of Technology and Design 2The University of Tokyo 3Deadkin University 4Hong Kong University of Science and Technology IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019. Oral. Abstract Deep learning techniques have become the to-go models for most vision-related tasks on 2D images.</description></item><item><title>LCD: Learned Cross-domain Descriptors for 2D-3D Matching</title><link>https://pqhieu.com/research/aaai20/</link><pubDate>Mon, 29 Jun 2020 19:23:54 +0800</pubDate><guid>https://pqhieu.com/research/aaai20/</guid><description>LCD: Learned Cross-domain Descriptors for 2D-3D Matching Quang-Hieu Pham1 Mikaela Angelina Uy2 Binh-Son Hua3 Duc Thanh Nguyen4 Gemma Roig5 Sai-Kit Yeung6 1Singapore University of Technology and Design 2Stanford University 3The University of Tokyo 4Deadkin University 5Geothe University of Frankfrut 6Hong Kong University of Science and Technology AAAI Conference on Artificial Intelligence (AAAI), 2020. Oral. Overview Abstract In this work, we present a novel method to learn a local cross-domain descriptor for 2D image and 3D point cloud matching.</description></item><item><title>Real-time Progressive 3D Semantic Segmentation for Indoor Scenes</title><link>https://pqhieu.com/research/wacv19/</link><pubDate>Mon, 29 Jun 2020 19:23:54 +0800</pubDate><guid>https://pqhieu.com/research/wacv19/</guid><description>Real-time Progressive 3D Semantic Segmentation for Indoor Scenes Quang-Hieu Pham1 Binh-Son Hua2 Duc Thanh Nguyen3 Sai-Kit Yeung4 1Singapore University of Technology and Design 2The University of Tokyo 3Deadkin University 4Hong Kong University of Science and Technology IEEE Winter Conference on Applications of Computer Vision (WACV), 2019. Abstract The widespread adoption of autonomous systems such as drones and assistant robots has created a need for real-time high-quality semantic scene segmentation. In this paper, we propose an efficient yet robust technique for on-the-fly dense reconstruction and semantic segmentation of 3D indoor scenes.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research on Pham Quang Hieu</title>
+    <link>https://pqhieu.com/research/</link>
+    <description>Recent content in Research on Pham Quang Hieu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Jun 2020 19:23:54 +0800</lastBuildDate><atom:link href="https://pqhieu.com/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JSIS3D: Joint Semantic-Instance Segmentation of 3D Point Clouds with Multi-Task Pointwise Networks and Multi-Value Conditional Random Fields</title>
+      <link>https://pqhieu.com/research/cvpr19/</link>
+      <pubDate>Mon, 29 Jun 2020 19:23:54 +0800</pubDate>
+      
+      <guid>https://pqhieu.com/research/cvpr19/</guid>
+      <description>JSIS3D: Joint Semantic-Instance Segmentation of 3D Point Clouds with Multi-Task Pointwise Networks and Multi-Value Conditional Random Fields Quang-Hieu Pham1 Binh-Son Hua2 Duc Thanh Nguyen3 Gemma Roig1 Sai-Kit Yeung4 1Singapore University of Technology and Design 2The University of Tokyo 3Deadkin University 4Hong Kong University of Science and Technology IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019. Oral. Abstract Deep learning techniques have become the to-go models for most vision-related tasks on 2D images.</description>
+    </item>
+    
+    <item>
+      <title>LCD: Learned Cross-domain Descriptors for 2D-3D Matching</title>
+      <link>https://pqhieu.com/research/aaai20/</link>
+      <pubDate>Mon, 29 Jun 2020 19:23:54 +0800</pubDate>
+      
+      <guid>https://pqhieu.com/research/aaai20/</guid>
+      <description>LCD: Learned Cross-domain Descriptors for 2D-3D Matching Quang-Hieu Pham1 Mikaela Angelina Uy2 Binh-Son Hua3 Duc Thanh Nguyen4 Gemma Roig5 Sai-Kit Yeung6 1Singapore University of Technology and Design 2Stanford University 3The University of Tokyo 4Deadkin University 5Geothe University of Frankfrut 6Hong Kong University of Science and Technology AAAI Conference on Artificial Intelligence (AAAI), 2020. Oral. Overview Abstract In this work, we present a novel method to learn a local cross-domain descriptor for 2D image and 3D point cloud matching.</description>
+    </item>
+    
+    <item>
+      <title>Real-time Progressive 3D Semantic Segmentation for Indoor Scenes</title>
+      <link>https://pqhieu.com/research/wacv19/</link>
+      <pubDate>Mon, 29 Jun 2020 19:23:54 +0800</pubDate>
+      
+      <guid>https://pqhieu.com/research/wacv19/</guid>
+      <description>Real-time Progressive 3D Semantic Segmentation for Indoor Scenes Quang-Hieu Pham1 Binh-Son Hua2 Duc Thanh Nguyen3 Sai-Kit Yeung4 1Singapore University of Technology and Design 2The University of Tokyo 3Deadkin University 4Hong Kong University of Science and Technology IEEE Winter Conference on Applications of Computer Vision (WACV), 2019. Abstract The widespread adoption of autonomous systems such as drones and assistant robots has created a need for real-time high-quality semantic scene segmentation. In this paper, we propose an efficient yet robust technique for on-the-fly dense reconstruction and semantic segmentation of 3D indoor scenes.</description>
+    </item>
+    
+  </channel>
+</rss>

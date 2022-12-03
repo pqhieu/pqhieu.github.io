@@ -1,23 +1,123 @@
-<!doctype html><html><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>JSIS3D: Joint Semantic-Instance Segmentation of 3D Point Clouds with Multi-Task Pointwise Networks and Multi-Value Conditional Random Fields</title><link rel=stylesheet type=text/css href=https://pqhieu.com/css/fonts.min.css><link rel=stylesheet type=text/css href=https://pqhieu.com/css/main.min.css><link rel=stylesheet type=text/css href=https://pqhieu.com/css/fontawesome.min.css><script async src="https://www.googletagmanager.com/gtag/js?id=G-876WHLGC5M"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-876WHLGC5M")</script><body><div id=sidebar><div id=links><a href=/>Home</a></div><div id=links><a href=/docs/resume.pdf>Résumé</a></div><div id=social><div id=github><a href=https://github.com/pqhieu><i class="fab fa-github-square"></i></a></div><div id=linkedin><a href=https://www.linkedin.com/in/pqhieu/><i class="fab fa-linkedin"></i></a></div></div></div><div class=main><article><h1 id=jsis3d-joint-semantic-instance-segmentation-of-3d-point-clouds-with-multi-task-pointwise-networks-and-multi-value-conditional-random-fields>JSIS3D: Joint Semantic-Instance Segmentation of 3D Point Clouds with Multi-Task Pointwise Networks and Multi-Value Conditional Random Fields</h1><p><div class=center><em>Quang-Hieu Pham</em><sup>1</sup>  
+<!DOCTYPE HTML>
+<html><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>JSIS3D: Joint Semantic-Instance Segmentation of 3D Point Clouds with Multi-Task Pointwise Networks and Multi-Value Conditional Random Fields</title>
+
+
+<link rel="stylesheet" type="text/css" href="https://pqhieu.com/css/fonts.min.css">
+
+<link rel="stylesheet" type="text/css" href="https://pqhieu.com/css/main.min.css">
+
+<link rel="stylesheet" type="text/css" href="https://pqhieu.com/css/fontawesome.min.css">
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-876WHLGC5M"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-876WHLGC5M');
+</script>
+<body><div id="sidebar">
+  <div id="links"><a href="/">Home</a></div>
+  <div id="links"><a href="/docs/resume.pdf">Résumé</a></div>
+  <div id="social">
+    <div id="github">
+      <a href="https://github.com/pqhieu"><i class="fab fa-github-square"></i></a>
+    </div>
+    <div id="linkedin">
+      <a href="https://www.linkedin.com/in/pqhieu/"><i class="fab fa-linkedin"></i></a>
+    </div>
+  </div>
+</div>
+
+<div class="main">
+<article>
+<h1 id="jsis3d-joint-semantic-instance-segmentation-of-3d-point-clouds-with-multi-task-pointwise-networks-and-multi-value-conditional-random-fields">JSIS3D: Joint Semantic-Instance Segmentation of 3D Point Clouds with Multi-Task Pointwise Networks and Multi-Value Conditional Random Fields</h1>
+<p>
+
+<div class="center">
+
+
+<em>Quang-Hieu Pham</em><sup>1</sup>  
 <em>Binh-Son Hua</em><sup>2</sup>  
 <em>Duc Thanh Nguyen</em><sup>3</sup>  
 <em>Gemma Roig</em><sup>1</sup>  
-<em>Sai-Kit Yeung</em><sup>4</sup>  </div></p><p><div class=center><sup>1</sup>Singapore University of Technology and Design  
-<sup>2</sup>The University of Tokyo  <br><sup>3</sup>Deadkin University  
-<sup>4</sup>Hong Kong University of Science and Technology</div></p><p><div class=center>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019.
-<span class=smcp>Oral</span>.</div></p><p><div class=center><a class=button href=https://arxiv.org/pdf/1904.00699.pdf><span class=icon><i class="fas fa-file-pdf"></i></span></a>
-<a class=button href=https://github.com/pqhieu/jsis3d><span class=icon><i class="fab fa-github"></i></span></a></div></p><h2 id=abstract>Abstract</h2><p><span class=smcp>Deep learning techniques</span> have become the to-go models for most vision-related tasks on 2D images.
+<em>Sai-Kit Yeung</em><sup>4</sup>  
+
+
+</div>
+
+</p>
+<p>
+
+<div class="center">
+
+
+<sup>1</sup>Singapore University of Technology and Design  
+<sup>2</sup>The University of Tokyo  <br>
+<sup>3</sup>Deadkin University  
+<sup>4</sup>Hong Kong University of Science and Technology
+
+
+</div>
+
+</p>
+<p>
+
+<div class="center">
+
+
+IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019.
+<span class="smcp">Oral</span>.
+
+
+</div>
+
+</p>
+<p>
+
+<div class="center">
+
+
+<a class="button" href="https://arxiv.org/pdf/1904.00699.pdf">
+<span class="icon">
+<i class="fas fa-file-pdf"></i>
+</span>
+</a>
+<a class="button" href="https://github.com/pqhieu/jsis3d">
+<span class="icon">
+<i class="fab fa-github"></i>
+</span>
+</a>
+
+
+</div>
+
+</p>
+<h2 id="abstract">Abstract</h2>
+<p><span class="smcp">Deep learning techniques</span> have become the to-go models for most vision-related tasks on 2D images.
 However, their power has not been fully realised on several tasks in 3D space, e.g., 3D scene understanding.
 In this work, we jointly address the problems of semantic and instance segmentation of 3D point clouds.
 Specifically, we develop a multi-task pointwise network that simultaneously performs two tasks: predicting the semantic classes of 3D points and embedding the points into high-dimensional vectors so that points of the same object instance are represented by similar embeddings.
 We then propose a multi-value conditional random field model to incorporate the semantic and instance labels and formulate the problem of semantic and instance segmentation as jointly optimising labels in the field model.
 The proposed method is thoroughly evaluated and compared with existing methods on different indoor scene datasets including S3DIS and SceneNN.
 Experimental results showed the robustness of the proposed joint semantic-instance segmentation scheme over its single components.
-Our method also achieved state-of-the-art performance on semantic segmentation.</p><h2 id=citation>Citation</h2><pre tabindex=0><code>@inproceedings{pham2019jsis3d,
+Our method also achieved state-of-the-art performance on semantic segmentation.</p>
+<h2 id="citation">Citation</h2>
+<pre tabindex="0"><code>@inproceedings{pham2019jsis3d,
   title = {{JSIS3D}: {J}oint semantic-instance segmentation of 3{D} point clouds with multi-task pointwise networks and multi-value conditional random fields},
   author = {Pham, Quang-Hieu and Nguyen, Duc Thanh and Hua, Binh-Son and Roig, Gemma and Yeung, Sai-Kit},
   booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   year = 2019
 }
-</code></pre><h2 id=acknowledgements>Acknowledgements</h2><p>This research project is partially supported by an internal grant from HKUST (R9429) and the MOE SUTD SRG grant (SRG ISTD 2017 131).</p></article></div></body></html>
+</code></pre><h2 id="acknowledgements">Acknowledgements</h2>
+<p>This research project is partially supported by an internal grant from HKUST (R9429) and the MOE SUTD SRG grant (SRG ISTD 2017 131).</p>
+
+</article>
+</div>
+
+</body>
+</html>
